@@ -1,4 +1,5 @@
 ﻿using System;
+using AQUASharpCore;
 
 namespace AQUASharpConsole
 {
@@ -6,7 +7,7 @@ namespace AQUASharpConsole
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine(Class1.SayHello());
         }
     }
 }
