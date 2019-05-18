@@ -5,9 +5,9 @@ namespace AQUASharpConsole
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main( string[] args )
         {
-            Console.WriteLine(Class1.SayHello());
+            Console.WriteLine( Class1.SayHello() );
         }
     }
 }
